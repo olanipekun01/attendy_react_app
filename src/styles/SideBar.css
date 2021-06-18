@@ -1,8 +1,8 @@
 .side_bar_section {
     width: 24%;
-    height: 580px;
+    height: 560px;
     background-color: black;
     margin-top: 9px;
     float: right;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
 }

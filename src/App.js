@@ -1,14 +1,28 @@
 import './App.css';
-import Header from "./layout/Header"
-import SideBar from "./layout/SideBar"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Hero from "./component/Hero"
+import Signin from './component/Signin';
+import Signup from './component/Signup';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <SideBar />
+      <Router>
+        <Switch>
+        <Route path="/signin">
+          <Signin />
+        </Route>
+        <Route path="/signup">
+          <Signup />
+        </Route>
+        <Route path="/">
+          <Hero />
+        </Route>
+        </Switch>
+      </Router>
+      {/*<Hero />*/}
+      {/*<Signin />*/}
+      {/*<Signup />*/}
     </div>
   );
 }

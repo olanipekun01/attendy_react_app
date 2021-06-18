@@ -7,14 +7,29 @@
     float: left;
     margin-left: 10px;
 }
+.app_header .nav_link {
+    text-decoration: none;
+}
 
 .nav_bar {
     float: left;
 }
 
-.profile_icon {
+.signin-signup {
     font-size: 20px;
     text-align: left;
-    margin-top: 40px;
-    margin-left: 900px;
+    margin-top: 30px;
+    margin-left: 890px;
+}
+
+.anchor-signin {
+    color:rgb(98, 98, 221)
+}
+
+.anchor-signup {
+    color: rgb(236, 30, 71);
+}
+
+.anchor-signin:hover, .anchor-signup:hover {
+    text-decoration: underline;
 }
