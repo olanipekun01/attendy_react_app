@@ -1,0 +1,186 @@
+.container {
+    width: 100%;
+    background-color: rgb(122, 169, 216);
+    /* margin-bottom: 8px; */
+    padding-bottom: 25px;
+    
+}
+
+.main_hero {
+    display: block;
+    width: 70%;
+    margin-top: 95px;
+    /* float: left; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.update_form_header {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.update_form {
+    display: block;
+    /* background-color: rgb(242, 242, 255); */
+    background: rgb(242, 242, 255);
+    border-radius: 30px;
+    margin-top: 50px;
+    /* color: rgb(75, 73, 73); */
+    text-align: left;
+}
+
+.update_picture {
+    padding-top: 30px;
+}
+
+.update_picture_input {
+    width: 550px;
+    height: 30px;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+
+.update_all {
+    font-size: 35px;
+    display: block;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.update_input_all {
+    width: 650px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 5px;
+    /* border: 0.02rem rgb(53,114,176) solid; */
+    border: 1px rgb(75, 73, 73) solid;
+}
+
+.update_select_all {
+    width: 655px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 5px;
+    /* border: 0.02rem rgb(53,114,176) solid; */
+    border: 1px rgb(75, 73, 73) solid;
+}
+
+.course_selection {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.course_selection  span{
+    font-size: 35px;
+    text-align: left;
+    display: block;
+}
+
+.course_headers {
+    font-size: 25px;
+    text-align: left;
+}
+
+.course_list_section {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+    float: left;
+}
+
+.course_list_section div label {
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    font-size: 20px;
+    /* color: rgb(53,114,176); */
+    color: rgb(75, 73, 73);
+}
+
+.first1, .first2, .first3, .first4 {
+    display: block;
+}
+
+.second1, .second2, .second3, .second4 {
+    display: none;
+}
+
+.each_course {
+    margin-left: 20px;
+    float: left;
+}
+
+.update_button {
+    /* width: 82%;
+    height: 47px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 233);
+    border: none;
+    color: white;
+    margin-bottom: 30px; */
+
+    /* font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 270px;
+    margin-top: 30px;
+    background-color: rgb(199, 197, 197); */
+
+    width: 70%;
+    height: 47px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+    /* background-color: rgb(56, 56, 233); */
+    /* background-color: rgb(199, 197, 197); */
+    background-color: rgb(122, 169, 216);
+    border: none;
+    /* color: white; */
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.update_button:hover {
+     /* background-color: rgb(122, 169, 216); */
+     background-color: rgb(199, 197, 197);
+     /* color: white; */
+     letter-spacing: .1rem;
+}
+
+.footer {
+    font-size: 12px;
+    background-color: rgb(204, 223, 216);
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    padding-top: 20px;
+    
+    
+}
+
+footer {
+    height: 45px;
+    width: 100%;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1390px){
+    .update_input_all {
+        width: 450px;
+    }
+
+    .update_select_all {
+        width: 455px;
+    }
+}

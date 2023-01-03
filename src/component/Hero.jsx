@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Hero.css";
+// import "../styles/Hero.css";
 import ImageCard from "../public/IMG_20200701_121956_538.jpg"
 import SideBar from "../layout/SideBar";
 import Header from "../layout/Header";
